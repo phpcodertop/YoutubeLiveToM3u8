@@ -13,17 +13,13 @@
       "email":"phpcodertop@gmail.com"
     }
   ],
-  "require": {
-  },
   "autoload":{
     "psr-4":{
         "phpcodertop\\YoutubeLiveToM3u8\\": "src/"
     },
     "files": [
         "src/functions.php"
-    ],
-    "require":{
-    }
+    ]
   },
   "extra": {
     "laravel": {
@@ -31,7 +27,7 @@
         "phpcodertop\\YoutubeLiveToM3u8\\YouTubeToM3u8ServiceProvider"
       ],
       "aliases": {
-        "M3u8": "phpcodertop\\YoutubeLiveToM3u8\\Facades\\YouTubeToM3u8Facade"
+        "M3u8": "phpcodertop\\YoutubeLiveToM3u8\\Facades\\M3u8"
       }
     }
   }
