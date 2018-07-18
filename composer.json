@@ -2,7 +2,7 @@
   "name":"phpcodertop/youtube-live-to-m3u8",
   "description":"Package for converting live YouTube videos into m3u8 file and downloading it .",
   "keywords": ["m3u8", "youtube", "download", "laravel"],
-  "Licence":"MIT",
+  "Licence": "MIT",
   "support": {
     "issues": "https://github.com/phpcodertop/YoutubeLiveToM3u8/issues",
     "source": "https://github.com/phpcodertop/YoutubeLiveToM3u8"

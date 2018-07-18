@@ -8,7 +8,5 @@ Package for converting live YouTube videos into m3u8 file and downloading it .
 #Install
 
 <code>
-
 composer require phpcodertop/youtube-live-to-m3u8
-
 </code>
