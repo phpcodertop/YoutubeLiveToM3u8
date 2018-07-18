@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: menna
- * Date: 18/07/2018
- * Time: 09:01:09 AM
- */
+
+if (!function_exists('M3u8')){
+    /**
+     * @return \Illuminate\Foundation\Application|mixed
+     */
+    function M3u8(){
+        return app('M3u8');
+    }
+}

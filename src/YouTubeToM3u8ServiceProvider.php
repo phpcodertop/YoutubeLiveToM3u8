@@ -2,6 +2,10 @@
 namespace phpcodertop\YoutubeLiveToM3u8;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class YouTubeToM3u8ServiceProvider
+ * @package phpcodertop\YoutubeLiveToM3u8
+ */
 class YouTubeToM3u8ServiceProvider extends ServiceProvider {
 
     /**
@@ -12,7 +16,7 @@ class YouTubeToM3u8ServiceProvider extends ServiceProvider {
     public function register()
     {
         $this->app->bind('M3u8',function (){
-            return new YoutubeLiveToM3u8;
+            return new YoutubeLiveToM3u8();
         });
     }
 

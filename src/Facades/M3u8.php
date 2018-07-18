@@ -4,12 +4,13 @@ namespace phpcodertop\YoutubeLiveToM3u8\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
+use phpcodertop\YoutubeLiveToM3u8\YoutubeLiveToM3u8;
 
-class YouTubeToM3u8Facade extends Facade
+class M3u8 extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'M3u8';
+        return new YoutubeLiveToM3u8();
     }
 
 }
